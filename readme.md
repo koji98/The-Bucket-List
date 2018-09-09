@@ -25,7 +25,7 @@ in.
 In the topics page you can find the multiple suggestions of the best activities to fill your
 interest.
 
-#Built With
+# Built With
 
 1. HTML, CSS, JS - No frontend framework was used
 2. JQuery
@@ -33,6 +33,6 @@ interest.
 4. Express - The Node.js framework
 5. MySQL- Database used to store users
 
-#Authors
+# Authors
 
 1. [Chidi Udeze](https://github.com/koji98/)
