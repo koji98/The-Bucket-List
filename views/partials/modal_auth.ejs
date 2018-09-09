@@ -1,0 +1,41 @@
+<!-- Modal structure -->
+<div id="modal">
+  <header>
+    <span class="active" id="loginBtn">Login</span>
+    <span id="signupBtn">Signup</span>
+  </header>
+
+  <div style="height: 250px;" id="formContainer">
+
+  <form id="loginForm">
+    <div class="col-down">
+      <input type="text" placeholder="Username" id="usernameLogin" class="textInput"/>
+      <label for="username" class="formLabel">Must be atleast 5 characters</label>
+      <input type="password" placeholder="Password" id="passwordLogin" class="textInput"/>
+      <label for="password" class="formLabel">Must be atleast 6 characters</label>
+
+      <div class="row-third">
+        <button type="button">Cancel</button>
+        <input type="submit" value="Login"/>
+      </div>
+    </div>
+  </form>
+
+  <form class="noForm" id="signupForm">
+    <div class="col-down">
+      <input type="text" placeholder="Username" id="usernameSignup" class="textInput"/>
+      <label for="username" class="formLabel">Must be atleast 5 characters</label>
+      <input type="password" placeholder="Password" id="passwordSignup" class="textInput"/>
+      <label for="password" class="formLabel">Must be atleast 6 characters</label>
+      <input type="email" placeholder="Email" id="emailSignup" class="textInput"/>
+
+      <div class="row-third">
+        <button type="button">Cancel</button>
+        <input type="submit" value="Login"/>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+</div>

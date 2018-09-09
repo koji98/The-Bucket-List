@@ -1,0 +1,89 @@
+/* Forms */
+#modal {
+  border-radius: 10px;
+}
+
+#modal h1 {
+  margin-left: 10px;
+}
+
+#modal header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #d3d3d3;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+#modal header span {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: rgba(84, 189, 34, .95);
+  font-size: 20px;
+}
+
+#modal form .row-third {
+  display: flex;
+}
+
+#modal form .row-third input, #modal form .row-third button {
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+}
+
+#modal form .row-third input {
+  background-color: rgba(84, 189, 34, .95);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#modal form .row-third button {
+  background-color: #d3d3d3;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.textInput {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  /* border-color: #d3d3d3; */
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.textInput:focus {
+  outline-width: 0;
+  border-color: rgba(84, 189, 34, .95);
+}
+
+.formLabel {
+  font-size: 12px;
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+.noForm {
+  display: none;
+}
+
+#emailSignup {
+  margin-bottom: 20px;
+}
+
+.active {
+  background-color: rgb(255, 255, 255);
+}
